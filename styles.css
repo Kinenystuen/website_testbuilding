@@ -1,0 +1,164 @@
+/*fonts*/
+@font-face {
+    font-family: "montserrat";
+    src: url("fonts/Montserrat-Regular.ttf");
+}
+
+html {
+    max-width: 1440px center;
+}
+body {
+    overflow-y: scroll;
+    background: #050517;
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px center;
+    position: relative;
+    overflow-y: scroll;
+    height: auto;
+  }
+
+header {
+    width: 100%;
+    height: 84px;
+    color: #D2D2D2;
+    font-family: "abril-fatface";    
+    position: absolute;
+    left: calc(50% - 1440px/2);
+    top: 0px;
+    background: #050517;
+    box-shadow: 0px 4px 50px rgba(80, 80, 80, 0.25); /* drop shadow */
+}
+
+header img {
+    width: 183px;
+    height: 84px;
+    margin-top: 0px;
+    
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+.header {
+    width: 56%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul li {
+    display: inline;
+    padding: 16px;
+    
+    color: #D2D2D2;
+    font-size: 24px;
+    font-weight: normal;
+    
+    display: inline;
+    flex-direction: row;
+    align-items: left;
+    padding: 8px;
+    gap: 8px;
+
+    width: 81px;
+    height: 48px;
+
+    border-radius: 5px;
+
+/* Inside auto layout */
+
+
+}
+
+a:link {
+    text-decoration: none;
+    color: #D2D2D2;
+}
+
+a:visited {
+    color: #D2D2D2;
+}
+
+a:hover {
+    color: #F7F7F7;
+    background: #2E1B3B; /* Purple color dark */
+    padding: 8px;
+    
+    border-radius: 5px;
+    
+}
+
+main h1 {
+    color: #D2D2D2;
+    font-family: "montserrat", sans-serif;
+    src: url(fonts/Montserrat-Regular.ttf);
+}
+
+main h2 {
+    color: #D2D2D2;
+    font-size: 16px;
+    font-family: "montserrat", sans-serif;
+}
+
+
+main p {
+    color: #D2D2D2;
+    
+    font-family: "montserrat", sans-serif;
+}
+
+.elements {
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    
+    
+}
+
+.crewpic {
+    position: absolute;
+    width: 895px;
+    height: 440px;
+    right: 120px;
+    top: 1007px;
+}
+
+/* Line 1 */
+line {
+    position: absolute;
+    width: 0px;
+    height: 440px;
+    left: 615px;
+    top: 1007px;
+
+    border: 2px solid #2E1B3B;
+}
+
+.textbox-place p {
+    width: 350px;
+    height: 283px;
+
+    font-family: url(fonts/Montserrat-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    margin-top: 1102.5px;
+    margin-left: 125px;
+
+    /* Font color */
+
+    color: #F7F7F7;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
